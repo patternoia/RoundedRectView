@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933EC2AD167B4D700089468B /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 933EC2AC167B4D700089468B /* Post.m */; };
+		933EC2B1167B59FE0089468B /* RoundedRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 933EC2B0167B59FE0089468B /* RoundedRectView.m */; };
+		933EC2B3167B5A170089468B /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933EC2B2167B5A170089468B /* PostCell.xib */; };
+		933EC2B5167B63450089468B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 933EC2B4167B63450089468B /* README.md */; };
 		9370080F167B48D4004AD833 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9370080E167B48D4004AD833 /* UIKit.framework */; };
 		93700811167B48D4004AD833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93700810167B48D4004AD833 /* Foundation.framework */; };
 		93700813167B48D4004AD833 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93700812167B48D4004AD833 /* CoreGraphics.framework */; };
@@ -24,6 +28,7 @@
 		93700838167B48D5004AD833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93700810167B48D4004AD833 /* Foundation.framework */; };
 		93700840167B48D5004AD833 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9370083E167B48D5004AD833 /* InfoPlist.strings */; };
 		93700843167B48D5004AD833 /* RoundedRectViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93700842167B48D5004AD833 /* RoundedRectViewTests.m */; };
+		93700856167B4A0C004AD833 /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93700853167B4A0C004AD833 /* PostCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		933EC2AB167B4D700089468B /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		933EC2AC167B4D700089468B /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		933EC2AF167B59FE0089468B /* RoundedRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedRectView.h; sourceTree = "<group>"; };
+		933EC2B0167B59FE0089468B /* RoundedRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedRectView.m; sourceTree = "<group>"; };
+		933EC2B2167B5A170089468B /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		933EC2B4167B63450089468B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		9370080A167B48D4004AD833 /* RoundedRectView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedRectView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9370080E167B48D4004AD833 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		93700810167B48D4004AD833 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +71,8 @@
 		9370083F167B48D5004AD833 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93700841167B48D5004AD833 /* RoundedRectViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedRectViewTests.h; sourceTree = "<group>"; };
 		93700842167B48D5004AD833 /* RoundedRectViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedRectViewTests.m; sourceTree = "<group>"; };
+		93700852167B4A0C004AD833 /* PostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
+		93700853167B4A0C004AD833 /* PostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +102,7 @@
 		937007FF167B48D4004AD833 = {
 			isa = PBXGroup;
 			children = (
+				933EC2B4167B63450089468B /* README.md */,
 				93700814167B48D4004AD833 /* RoundedRectView */,
 				9370083B167B48D5004AD833 /* RoundedRectViewTests */,
 				9370080D167B48D4004AD833 /* Frameworks */,
@@ -119,6 +133,13 @@
 		93700814167B48D4004AD833 /* RoundedRectView */ = {
 			isa = PBXGroup;
 			children = (
+				933EC2B2167B5A170089468B /* PostCell.xib */,
+				933EC2AF167B59FE0089468B /* RoundedRectView.h */,
+				933EC2B0167B59FE0089468B /* RoundedRectView.m */,
+				933EC2AB167B4D700089468B /* Post.h */,
+				933EC2AC167B4D700089468B /* Post.m */,
+				93700852167B4A0C004AD833 /* PostCell.h */,
+				93700853167B4A0C004AD833 /* PostCell.m */,
 				9370081D167B48D4004AD833 /* AppDelegate.h */,
 				9370081E167B48D4004AD833 /* AppDelegate.m */,
 				93700826167B48D4004AD833 /* MainStoryboard_iPhone.storyboard */,
@@ -240,6 +261,8 @@
 				93700825167B48D4004AD833 /* Default-568h@2x.png in Resources */,
 				93700828167B48D4004AD833 /* MainStoryboard_iPhone.storyboard in Resources */,
 				9370082B167B48D4004AD833 /* MainStoryboard_iPad.storyboard in Resources */,
+				933EC2B3167B5A170089468B /* PostCell.xib in Resources */,
+				933EC2B5167B63450089468B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +300,9 @@
 				9370081B167B48D4004AD833 /* main.m in Sources */,
 				9370081F167B48D4004AD833 /* AppDelegate.m in Sources */,
 				9370082E167B48D4004AD833 /* ViewController.m in Sources */,
+				93700856167B4A0C004AD833 /* PostCell.m in Sources */,
+				933EC2AD167B4D700089468B /* Post.m in Sources */,
+				933EC2B1167B59FE0089468B /* RoundedRectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +487,7 @@
 				93700848167B48D5004AD833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93700849167B48D5004AD833 /* Build configuration list for PBXNativeTarget "RoundedRectViewTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +496,7 @@
 				9370084B167B48D5004AD833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
